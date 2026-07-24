@@ -1,7 +1,5 @@
 # Pathology-CoT — `inference.sh` 用法
 
-`inference.sh` **不吃任何命令列參數**。直接執行：
-
 ```bash
 bash inference.sh
 ```
@@ -10,16 +8,6 @@ bash inference.sh
 
 > 注意：目前腳本結尾會檢查 `$STATUS2`，但 worker 2 沒啟用時該變數其實沒有被賦值，這是腳本本身既有的小瑕疵，如實記錄現況，若要修正需自行處理。
 
-目前寫死的參數：
-```
--d /work/Agent_benchmark/Pathology-CoT/result/CAMELYON16
--o /work/Agent_benchmark/Pathology-CoT/result/CAMELYON16/test
--m WenchuanZhang/Patho-R1-3B
--m_s o4-mini
--n 1
---qa_file /work/Agent_dataset/CAMELYON16/roi_qa_dataset.json
---start 0 --end 130
-```
 
 ## `pathology-o3/think_ln_classify.py` 完整參數
 

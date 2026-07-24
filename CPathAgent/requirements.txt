@@ -1,0 +1,13 @@
+python-dotenv>=1.0.0
+openslide-python>=3.4.1
+Pillow>=10.0.0
+numpy>=1.24.0
+requests>=2.31.0
+transformers>=4.45.0
+torch>=2.1.0
+accelerate>=0.24.0
+tqdm>=4.65.0
+opencv-python>=4.8.0
+bitsandbytes>=0.41.0
+openai>=1.0.0
+flash-attn>=2.0.0  # optional: Flash Attention 2, install separately with: pip install flash-attn --no-build-isolation

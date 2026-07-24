@@ -1,0 +1,5 @@
+method,CAMELYON16_detection,TCGA_BRCA_subtype,TCGA_LUNG_Classification
+slide_seek,0.312,0.548,0.44
+Pathology-CoT,0.415,0.699,0.804
+PathAgent,0.738,0.663,0.804
+CPathAgent,0.484,0.602,0.574

@@ -1,0 +1,62 @@
+# ── Secrets ──────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Python ───────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.ipynb_checkpoints/
+
+# ── Model weights / large binaries ──────────────────────────────────
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+
+# ── Logs ─────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Generated evaluation / inference outputs (large, regenerable) ──
+result/
+results/
+output/
+outputs/
+post_eval/
+qa_results/
+patch_bbox/
+CAMELYON16_detection/
+tcga_luad_subtype/
+tcga_lusc_subtype/
+tcga_brca_subtype/
+test_v2/
+test_v3/
+
+# ── Editors / OS ─────────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~

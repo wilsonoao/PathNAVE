@@ -1,0 +1,13 @@
+method,task,acc,acc_3dp,qa_correct_cases,qa_has_result,source
+slide_seek,CAMELYON16_detection,0.3125,0.312,15.0,48.0,/work/Agent_benchmark/slide_seek/post_eval/CAMELYON16_detection/ROI/roi_overlap_summary.csv
+slide_seek,TCGA_BRCA_subtype,0.5484,0.548,51.0,93.0,/work/Agent_benchmark/slide_seek/post_eval/TCGA_BRCA_subtype/ROI/roi_overlap_summary.csv
+slide_seek,TCGA_LUNG_Classification,0.4398,0.44,303.0,689.0,/work/Agent_benchmark/slide_seek/post_eval/TCGA_LUNG_Classification/ROI/roi_overlap_summary.csv
+Pathology-CoT,CAMELYON16_detection,0.4146,0.415,17.0,41.0,/work/Agent_benchmark/Pathology-CoT/post_eval/CAMELYON16_detection/ROI/roi_overlap_summary.csv
+Pathology-CoT,TCGA_BRCA_subtype,0.6989,0.699,65.0,93.0,/work/Agent_benchmark/Pathology-CoT/post_eval/TCGA_BRCA_subtype/ROI/roi_overlap_summary.csv
+Pathology-CoT,TCGA_LUNG_Classification,0.8042,0.804,690.0,858.0,/work/Agent_benchmark/Pathology-CoT/post_eval/TCGA_LUNG_Classification/ROI/roi_overlap_summary.csv
+PathAgent,CAMELYON16_detection,0.7377,0.738,45.0,61.0,/work/Agent_benchmark/PathAgent/post_eval/CAMELYON16_detection/ROI/roi_overlap_summary.csv
+PathAgent,TCGA_BRCA_subtype,0.6628,0.663,57.0,86.0,/work/Agent_benchmark/PathAgent/post_eval/TCGA_BRCA_subtype/ROI/roi_overlap_summary.csv
+PathAgent,TCGA_LUNG_Classification,0.8042,0.804,645.0,802.0,/work/Agent_benchmark/PathAgent/post_eval/TCGA_LUNG_Classification/ROI/roi_overlap_summary.csv
+CPathAgent,CAMELYON16_detection,0.484375,0.484,62.0,128.0,/work/Agent_benchmark/CPathAgent/output/CAMELYON16
+CPathAgent,TCGA_BRCA_subtype,0.6022,0.602,56.0,93.0,/work/Agent_benchmark/CPathAgent/post_eval/TCGA_BRCA_subtype/ROI/roi_overlap_summary.csv
+CPathAgent,TCGA_LUNG_Classification,0.5737,0.574,397.0,692.0,/work/Agent_benchmark/CPathAgent/post_eval/TCGA_LUNG_Classification/ROI/roi_overlap_summary.csv

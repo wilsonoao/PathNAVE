@@ -1,0 +1,29 @@
+# Core
+requests>=2.31.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# WSI processing
+openslide-python>=1.3.0
+
+# HuggingFace / patho_r1
+transformers>=4.45.0
+torch>=2.0.0
+accelerate>=0.26.0
+# For Qwen2-VL based patho_r1
+qwen-vl-utils>=0.0.8
+
+# Optional: quantization (for low VRAM)
+# bitsandbytes>=0.43.0
+
+# Tissue detection
+opencv-python>=4.8.0
+
+# Utilities
+tqdm>=4.65.0
+
+# OpenAI API (optional, needed when --use-openai is set)
+openai>=1.0.0
+
+# Load environment variables from .env
+python-dotenv>=1.0.0

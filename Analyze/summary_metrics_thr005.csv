@@ -1,0 +1,13 @@
+method,task,mrfh_at_thr0,hit_rate_at_thr0,hit_cases_at_thr0,case_micro_precision,per_roi_micro_precision,conditional_hit_cases,conditional_hit_rate,conditional_mrfh,processed_cases,per_roi_total,total_16x16_subpatches,coverage_16x16_multiscale,efficiency,efficiency_avg_per_case,efficiency_cases_with_total_size,has_explicit_hit_rate_file,hit_threshold,mrfh_at_hit_threshold,hit_rate_at_hit_threshold,hit_cases_at_hit_threshold,threshold_type
+slide_seek,CAMELYON16_detection,0.0451,8.3,4,0.0896,0.0679,3.0,0.0625,0.0243,48.0,232.0,13720000.0,0.003601,0.001038,0.002572,48.0,True,0.05,0.0451,8.3,4,precision
+slide_seek,TCGA_BRCA_subtype,0.728,87.1,81,0.3355,0.3465,8.0,0.086,0.0423,93.0,1137.0,48676992.0,0.014248,0.013941,0.020601,93.0,True,0.05,0.7058,86.0,80,precision
+slide_seek,TCGA_LUNG_Classification,0.6699,86.5,742,0.359,0.3778,58.0,0.0676,0.0332,858.0,20687.0,680232896.0,0.027215,0.022461,0.039587,856.0,True,0.05,0.6526,86.0,738,precision
+Pathology-CoT,CAMELYON16_detection,0.3089,54.2,26,0.1386,0.1436,20.0,0.4167,0.2068,48.0,330.0,58905513.0,0.015461,0.016487,0.017138,48.0,True,0.05,0.2294,39.6,19,precision
+Pathology-CoT,TCGA_BRCA_subtype,0.7537,86.7,85,0.5894,0.606,9.0,0.0918,0.0508,98.0,434.0,68056619.0,0.018632,0.020243,0.018459,98.0,True,0.05,0.7435,85.7,84,precision
+Pathology-CoT,TCGA_LUNG_Classification,0.7918,85.8,737,0.6456,0.651,90.0,0.1048,0.085,859.0,3370.0,357013907.0,0.014279,0.016925,0.017068,857.0,True,0.05,0.7749,84.2,723,precision
+PathAgent,CAMELYON16_detection,0.0953,45.9,28,0.0204,0.021,22.0,0.3607,0.0641,61.0,1633.0,103445640.0,0.02092,0.024224,0.02915,61.0,True,0.05,0.0604,37.7,23,precision
+PathAgent,TCGA_BRCA_subtype,0.4671,83.7,72,0.2857,0.2857,3.0,0.0349,0.014,86.0,1377.0,90243072.0,0.028165,0.035582,0.035699,86.0,True,0.05,0.4415,79.1,68,precision
+PathAgent,TCGA_LUNG_Classification,0.6364,89.8,721,0.392,0.353,60.0,0.0747,0.037,803.0,18389.0,1036362571.0,0.044249,0.047629,0.056389,801.0,True,0.05,0.604,87.0,699,precision
+CPathAgent,CAMELYON16_detection,0.2358,66.7,32,0.0374,0.037,40.0,0.8333,0.6886,48.0,760.0,517868352.0,0.135921,0.149535,0.155661,48.0,True,0.05,0.1777,41.7,20,precision
+CPathAgent,TCGA_BRCA_subtype,0.7164,87.1,81,0.3027,0.3124,51.0,0.5484,0.2539,93.0,918.0,535513201.0,0.156752,0.174295,0.221789,93.0,True,0.05,0.6916,84.9,79,precision
+CPathAgent,TCGA_LUNG_Classification,0.6938,83.1,575,0.3207,0.3316,329.0,0.4754,0.2607,692.0,5620.0,3796297750.0,0.193729,0.216374,0.267558,690.0,True,0.05,0.6701,81.6,565,precision

@@ -1,0 +1,9 @@
+method,task,roi_cases,matching_json_before,matching_unique_cases_before,matching_json_after,matching_unique_cases_after
+CPathAgent,TCGA_BRCA_subtype,93,808,808,85,85
+PathAgent,TCGA_BRCA_subtype,86,829,829,86,86
+Pathology-CoT,TCGA_BRCA_subtype,98,941,941,93,93
+slide_seek,TCGA_BRCA_subtype,93,937,937,93,93
+CPathAgent,TCGA_LUNG_Classification,692,1714,1714,607,607
+PathAgent,TCGA_LUNG_Classification,803,2481,2481,803,803
+Pathology-CoT,TCGA_LUNG_Classification,859,2623,2623,858,858
+slide_seek,TCGA_LUNG_Classification,855,2618,2618,855,855

@@ -1,0 +1,242 @@
+[
+  {
+    "slide_id": "test_001",
+    "predicted_presence": "Yes",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_002",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_004",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_008",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_010",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_011",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_013",
+    "predicted_presence": "Yes",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_016",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_021",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_026",
+    "predicted_presence": "Yes",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_027",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_029",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_030",
+    "predicted_presence": "Yes",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_033",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_038",
+    "predicted_presence": "No",
+    "gt_presence": "No"
+  },
+  {
+    "slide_id": "test_040",
+    "predicted_presence": "Yes",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_046",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_048",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_051",
+    "predicted_presence": "Yes",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_052",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_061",
+    "predicted_presence": "Yes",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_064",
+    "predicted_presence": "Yes",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_065",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_066",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_068",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_069",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_071",
+    "predicted_presence": "Yes",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_073",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_074",
+    "predicted_presence": "Yes",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_075",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_079",
+    "predicted_presence": "Yes",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_082",
+    "predicted_presence": "Yes",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_084",
+    "predicted_presence": "Yes",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_090",
+    "predicted_presence": "Yes",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_092",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_094",
+    "predicted_presence": "Yes",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_097",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_099",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_102",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_104",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_105",
+    "predicted_presence": "Yes",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_108",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_110",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_113",
+    "predicted_presence": "Yes",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_116",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_117",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_121",
+    "predicted_presence": "No",
+    "gt_presence": "Yes"
+  },
+  {
+    "slide_id": "test_122",
+    "predicted_presence": "Yes",
+    "gt_presence": "Yes"
+  }
+]

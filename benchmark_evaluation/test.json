@@ -1,0 +1,3892 @@
+{
+  "summary": {
+    "mean_MRFH": 0.26237060041407867,
+    "mean_nDCG@10": 0.3016900056951478,
+    "mean_tumor_ratio": 0.18269496204278807,
+    "hit_rate": 0.43478260869565216,
+    "mean_coverage": 0.020840505356179574,
+    "mean_tumor_coverage": 0.005461131664422605,
+    "mean_normal_coverage": 0.015379373691756971,
+    "mean_efficiency_area": -0.009918242027334365
+  },
+  "cases": {
+    "test_117": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            3654,
+            4620,
+            16914,
+            15090
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            37299,
+            106432,
+            44113,
+            111621
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            83935,
+            400,
+            96929,
+            15509
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            11198,
+            95281,
+            17650,
+            101371
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            13677,
+            90879,
+            22490,
+            100647
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            71995,
+            144797,
+            76801,
+            147661
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            6286,
+            6426,
+            13348,
+            11923
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            31561,
+            104337,
+            38370,
+            110470
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            85046,
+            5500,
+            93698,
+            12060
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_10",
+          "coords": [
+            39261,
+            103483,
+            44306,
+            108732
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 10,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.03250391261297682,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.03250391261297682,
+      "efficiency_area": -0.03250391261297682,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_027": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            30850,
+            119680,
+            38391,
+            128000
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            18352,
+            124048,
+            25478,
+            130635
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            8596,
+            10265,
+            17637,
+            17126
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            34712,
+            121089,
+            41755,
+            127580
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            22516,
+            124039,
+            28313,
+            129462
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            44936,
+            119486,
+            52313,
+            127220
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 6,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.014143179894788149,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.014143179894788149,
+      "efficiency_area": -0.014143179894788149,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_108": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            64087,
+            123466,
+            71419,
+            129775
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            27478,
+            151355,
+            33995,
+            157276
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            35390,
+            166838,
+            39490,
+            170788
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            31365,
+            150326,
+            37039,
+            155646
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            33408,
+            152007,
+            41161,
+            158397
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            51567,
+            135257,
+            58401,
+            143019
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            31158,
+            154005,
+            36812,
+            157447
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            38006,
+            166299,
+            42561,
+            170411
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            34460,
+            162085,
+            40723,
+            169574
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_10",
+          "coords": [
+            61586,
+            125466,
+            66710,
+            130485
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 2,
+      "total_valid": 10,
+      "tumor_ratio": 0.2,
+      "coverage_ratio": 0.01593270384111861,
+      "tumor_coverage": 0.003685957243074066,
+      "normal_coverage": 0.012246746598044546,
+      "efficiency_area": -0.00856078935497048,
+      "MRFH": 0.25,
+      "nDCG@10": 0.5012658353418871
+    },
+    "test_071": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            132032,
+            64428,
+            141169,
+            73954
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            46459,
+            63613,
+            56232,
+            72947
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            135603,
+            68832,
+            141799,
+            74736
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 3,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.0142640456685911,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.0142640456685911,
+      "efficiency_area": -0.0142640456685911,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_002": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            20962,
+            113688,
+            27451,
+            120493
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            30719,
+            162437,
+            37176,
+            167804
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            32610,
+            156211,
+            38568,
+            162730
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            37478,
+            178632,
+            42850,
+            184532
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            13123,
+            110602,
+            20765,
+            119020
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            34358,
+            160662,
+            39121,
+            165124
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            26450,
+            78249,
+            33211,
+            86305
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            36088,
+            103304,
+            41139,
+            108389
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            39595,
+            177488,
+            44675,
+            182559
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_10",
+          "coords": [
+            31400,
+            80499,
+            36890,
+            85719
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 5,
+      "total_valid": 10,
+      "tumor_ratio": 0.5,
+      "coverage_ratio": 0.01708271934793327,
+      "tumor_coverage": 0.0070366493740677254,
+      "normal_coverage": 0.010046069973865543,
+      "efficiency_area": -0.003009420599797818,
+      "MRFH": 0.5,
+      "nDCG@10": 0.7525434150364478
+    },
+    "test_040": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            45938,
+            97754,
+            51846,
+            103607
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            43905,
+            97055,
+            48992,
+            102319
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            26026,
+            99208,
+            34915,
+            109556
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            32895,
+            95115,
+            38255,
+            100546
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            48070,
+            100149,
+            53044,
+            105029
+          ],
+          "is_tumor": true
+        }
+      ],
+      "tumor_count": 5,
+      "total_valid": 5,
+      "tumor_ratio": 1.0,
+      "coverage_ratio": 0.009535204609935174,
+      "tumor_coverage": 0.009535204609935174,
+      "normal_coverage": 0.0,
+      "efficiency_area": 0.009535204609935174,
+      "MRFH": 1.0,
+      "nDCG@10": 1.0
+    },
+    "test_008": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            69580,
+            53517,
+            74225,
+            58532
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            62992,
+            46464,
+            67727,
+            51981
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            66468,
+            50755,
+            70778,
+            54838
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            63942,
+            52437,
+            68535,
+            57774
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            30315,
+            75615,
+            34038,
+            79466
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            30946,
+            26216,
+            34926,
+            30298
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            29327,
+            28116,
+            35622,
+            35253
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            54673,
+            46902,
+            58239,
+            50994
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            34081,
+            28676,
+            38447,
+            33206
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_10",
+          "coords": [
+            58738,
+            45596,
+            64192,
+            51071
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 10,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.02330476020416363,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.02330476020416363,
+      "efficiency_area": -0.02330476020416363,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_026": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            27399,
+            26211,
+            33386,
+            32407
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            83275,
+            36398,
+            87540,
+            41036
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            80901,
+            36954,
+            84745,
+            40615
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            85140,
+            37253,
+            89806,
+            42219
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            30674,
+            76188,
+            35560,
+            80852
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            28533,
+            77889,
+            32817,
+            82216
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 1,
+      "total_valid": 6,
+      "tumor_ratio": 0.16666666666666666,
+      "coverage_ratio": 0.013256497179541877,
+      "tumor_coverage": 0.0036306424289697103,
+      "normal_coverage": 0.009625854750572167,
+      "efficiency_area": -0.005995212321602456,
+      "MRFH": 1.0,
+      "nDCG@10": 1.0
+    },
+    "test_069": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            13613,
+            45585,
+            21085,
+            52157
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            56221,
+            60356,
+            68860,
+            72479
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            17412,
+            45763,
+            25584,
+            53251
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 1,
+      "total_valid": 3,
+      "tumor_ratio": 0.3333333333333333,
+      "coverage_ratio": 0.011903786894135874,
+      "tumor_coverage": 0.00692139330484868,
+      "normal_coverage": 0.0049823935892871945,
+      "efficiency_area": 0.0019389997155614853,
+      "MRFH": 0.5,
+      "nDCG@10": 0.6309297535714575
+    },
+    "test_068": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            41260,
+            167579,
+            48600,
+            173731
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            15126,
+            96727,
+            21200,
+            102415
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            63946,
+            154098,
+            69553,
+            159732
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            37774,
+            167316,
+            44530,
+            172874
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            13385,
+            95877,
+            17805,
+            99829
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            12866,
+            99070,
+            18162,
+            103255
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            32422,
+            167000,
+            39174,
+            172461
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            84468,
+            99832,
+            88916,
+            102595
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            40046,
+            130066,
+            44848,
+            134912
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_10",
+          "coords": [
+            59316,
+            154515,
+            66514,
+            161276
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 3,
+      "total_valid": 10,
+      "tumor_ratio": 0.3,
+      "coverage_ratio": 0.014312259628949804,
+      "tumor_coverage": 0.005528342938825375,
+      "normal_coverage": 0.008783916690124429,
+      "efficiency_area": -0.0032555737512990537,
+      "MRFH": 1.0,
+      "nDCG@10": 0.8278123145308894
+    },
+    "test_051": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            70080,
+            118933,
+            76101,
+            125547
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            20022,
+            125538,
+            24928,
+            130135
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            55317,
+            159735,
+            59883,
+            162976
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            68565,
+            118316,
+            73608,
+            123034
+          ],
+          "is_tumor": true
+        }
+      ],
+      "tumor_count": 2,
+      "total_valid": 4,
+      "tumor_ratio": 0.5,
+      "coverage_ratio": 0.004922408205421443,
+      "tumor_coverage": 0.003101435169085121,
+      "normal_coverage": 0.0018209730363363222,
+      "efficiency_area": 0.0012804621327487987,
+      "MRFH": 1.0,
+      "nDCG@10": 0.8772153153380493
+    },
+    "test_065": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            59105,
+            14420,
+            62235,
+            17793
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            46844,
+            16645,
+            52530,
+            21787
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 2,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.009511623047945792,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.009511623047945792,
+      "efficiency_area": -0.009511623047945792,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_084": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            14135,
+            20383,
+            20309,
+            26794
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 1,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.0040423938002007295,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.0040423938002007295,
+      "efficiency_area": -0.0040423938002007295,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_011": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            34010,
+            124774,
+            41463,
+            131983
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            38212,
+            128207,
+            42580,
+            132702
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            42291,
+            134068,
+            47245,
+            139802
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 3,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.00515767509629721,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.00515767509629721,
+      "efficiency_area": -0.00515767509629721,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_048": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            21418,
+            10692,
+            24569,
+            12142
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            17694,
+            54276,
+            22182,
+            59129
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 2,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.003251626378013974,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.003251626378013974,
+      "efficiency_area": -0.003251626378013974,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_082": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            83622,
+            5168,
+            94585,
+            15267
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            3756,
+            3267,
+            15451,
+            19374
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            5208,
+            9648,
+            13243,
+            15958
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            81078,
+            0,
+            97338,
+            23097
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            24681,
+            94446,
+            30951,
+            101479
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            13531,
+            125768,
+            17786,
+            129110
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            14687,
+            124196,
+            19200,
+            128133
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            78859,
+            158101,
+            83750,
+            163721
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            86616,
+            159441,
+            92757,
+            166083
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_10",
+          "coords": [
+            25712,
+            104161,
+            28529,
+            107210
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 10,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.04137147844844593,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.04137147844844593,
+      "efficiency_area": -0.04137147844844593,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_029": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            20656,
+            106759,
+            27250,
+            114111
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            78577,
+            118938,
+            84641,
+            123589
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            66231,
+            96525,
+            71714,
+            101517
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            81261,
+            117564,
+            87624,
+            123206
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            66730,
+            91818,
+            75579,
+            101693
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            25955,
+            116208,
+            32058,
+            124676
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            31029,
+            111032,
+            36673,
+            116880
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            27709,
+            108979,
+            34530,
+            115645
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            23744,
+            109262,
+            29376,
+            115028
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_10",
+          "coords": [
+            32648,
+            112624,
+            39330,
+            119854
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 10,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.020262476268470206,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.020262476268470206,
+      "efficiency_area": -0.020262476268470206,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_064": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            32922,
+            132914,
+            38238,
+            137520
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            39838,
+            133367,
+            48985,
+            141181
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            40300,
+            132740,
+            45195,
+            137385
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            68380,
+            138937,
+            73162,
+            142474
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            37955,
+            123845,
+            48032,
+            138466
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            44807,
+            152405,
+            50689,
+            157349
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            44633,
+            139328,
+            59570,
+            154606
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            37616,
+            133052,
+            42212,
+            137297
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            23407,
+            112926,
+            27693,
+            117198
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_10",
+          "coords": [
+            29109,
+            132895,
+            35517,
+            138165
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 1,
+      "total_valid": 10,
+      "tumor_ratio": 0.1,
+      "coverage_ratio": 0.029373843296372118,
+      "tumor_coverage": 0.010956283639238767,
+      "normal_coverage": 0.01841755965713335,
+      "efficiency_area": -0.0074612760178945844,
+      "MRFH": 0.14285714285714285,
+      "nDCG@10": 0.3333333333333333
+    },
+    "test_052": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            21917,
+            121345,
+            29720,
+            128769
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            58348,
+            126543,
+            64585,
+            132726
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            55923,
+            134775,
+            62919,
+            142113
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            54148,
+            126738,
+            59846,
+            132944
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            56836,
+            109903,
+            62015,
+            114980
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            56479,
+            129456,
+            63529,
+            137313
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            80101,
+            140778,
+            85391,
+            145469
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            52130,
+            143188,
+            58073,
+            149383
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            56061,
+            124190,
+            62314,
+            131053
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_10",
+          "coords": [
+            11388,
+            95076,
+            15824,
+            98672
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 10,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.017941278462692854,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.017941278462692854,
+      "efficiency_area": -0.017941278462692854,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_097": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            76557,
+            119282,
+            81992,
+            124685
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            17208,
+            92914,
+            22849,
+            98682
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            12879,
+            142176,
+            18845,
+            147726
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            33513,
+            100078,
+            37516,
+            103342
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            56368,
+            100331,
+            61833,
+            105480
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            51356,
+            170636,
+            58847,
+            178693
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            13042,
+            80275,
+            23013,
+            89541
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            59888,
+            98517,
+            68212,
+            106637
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            21706,
+            154203,
+            27250,
+            159476
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_10",
+          "coords": [
+            10711,
+            153323,
+            15473,
+            158053
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 10,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.02209666475774143,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.02209666475774143,
+      "efficiency_area": -0.02209666475774143,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_090": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            9883,
+            153281,
+            16194,
+            159551
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            22313,
+            132494,
+            29831,
+            140373
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            31769,
+            127441,
+            37631,
+            133410
+          ],
+          "is_tumor": true
+        }
+      ],
+      "tumor_count": 3,
+      "total_valid": 3,
+      "tumor_ratio": 1.0,
+      "coverage_ratio": 0.0063775104066584945,
+      "tumor_coverage": 0.0063775104066584945,
+      "normal_coverage": 0.0,
+      "efficiency_area": 0.0063775104066584945,
+      "MRFH": 1.0,
+      "nDCG@10": 1.0
+    },
+    "test_110": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            24220,
+            25175,
+            29329,
+            31028
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            27551,
+            25106,
+            31399,
+            29190
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            70981,
+            33453,
+            77538,
+            40560
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            18645,
+            50405,
+            23008,
+            54108
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            37280,
+            35101,
+            41768,
+            39743
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            23973,
+            40395,
+            28178,
+            44275
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            66903,
+            25386,
+            70170,
+            28508
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            37649,
+            32581,
+            41357,
+            36603
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            34162,
+            35391,
+            38582,
+            39583
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_10",
+          "coords": [
+            26530,
+            58816,
+            31555,
+            64615
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 10,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.023793406677246092,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.023793406677246092,
+      "efficiency_area": -0.023793406677246092,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_104": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            80969,
+            155561,
+            88225,
+            163581
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            34489,
+            154593,
+            43093,
+            162677
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            65671,
+            143950,
+            72198,
+            149968
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            68564,
+            142785,
+            76677,
+            150154
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            84887,
+            158206,
+            89951,
+            162335
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            28847,
+            154005,
+            38723,
+            163014
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            82691,
+            160021,
+            87829,
+            164509
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            69908,
+            114814,
+            77794,
+            121526
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            79127,
+            157942,
+            84275,
+            163264
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_10",
+          "coords": [
+            20097,
+            93296,
+            27142,
+            99739
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 10,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.02384083625743268,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.02384083625743268,
+      "efficiency_area": -0.02384083625743268,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_021": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            60318,
+            158671,
+            69678,
+            167723
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            57584,
+            164288,
+            64645,
+            170456
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            53961,
+            156306,
+            64735,
+            169437
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            21965,
+            156674,
+            25997,
+            159614
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 3,
+      "total_valid": 4,
+      "tumor_ratio": 0.75,
+      "coverage_ratio": 0.013019237496119173,
+      "tumor_coverage": 0.012471199313036712,
+      "normal_coverage": 0.0005480381830824607,
+      "efficiency_area": 0.01192316112995425,
+      "MRFH": 1.0,
+      "nDCG@10": 1.0
+    },
+    "test_092": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            60700,
+            71581,
+            67255,
+            77138
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            62953,
+            25425,
+            68483,
+            30617
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            92523,
+            26701,
+            99913,
+            35873
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            66135,
+            25444,
+            70990,
+            30431
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            53109,
+            54805,
+            57912,
+            59611
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            85062,
+            13049,
+            91671,
+            19950
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            63004,
+            61061,
+            70622,
+            68461
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            68950,
+            25183,
+            73546,
+            29792
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            64071,
+            64700,
+            67964,
+            69168
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 9,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.024305804249745152,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.024305804249745152,
+      "efficiency_area": -0.024305804249745152,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_013": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            45184,
+            149777,
+            52855,
+            158324
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            58902,
+            115176,
+            66552,
+            121535
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            43845,
+            153429,
+            49207,
+            158306
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            50607,
+            153196,
+            58620,
+            159768
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            41328,
+            119976,
+            46092,
+            124312
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            45990,
+            145341,
+            58731,
+            156122
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            40187,
+            121604,
+            47796,
+            129920
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            48579,
+            105865,
+            53594,
+            111143
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            37549,
+            126822,
+            43355,
+            130109
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_10",
+          "coords": [
+            80286,
+            0,
+            95651,
+            6294
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 3,
+      "total_valid": 10,
+      "tumor_ratio": 0.3,
+      "coverage_ratio": 0.026003976067257656,
+      "tumor_coverage": 0.010702682994473993,
+      "normal_coverage": 0.015301293072783665,
+      "efficiency_area": -0.0045986100783096725,
+      "MRFH": 1.0,
+      "nDCG@10": 0.8710785440003369
+    },
+    "test_038": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            26830,
+            93731,
+            34845,
+            102743
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            22241,
+            94682,
+            29450,
+            102998
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            54833,
+            122236,
+            64764,
+            131672
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 3,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.010565647331187372,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.010565647331187372,
+      "efficiency_area": -0.010565647331187372,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_122": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            22231,
+            55323,
+            27626,
+            62285
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            23561,
+            57547,
+            26404,
+            60741
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            48276,
+            9270,
+            52357,
+            14296
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            45394,
+            18235,
+            48751,
+            21805
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            74137,
+            50724,
+            77339,
+            54394
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            36559,
+            17370,
+            39637,
+            20386
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            50548,
+            10108,
+            54616,
+            14348
+          ],
+          "is_tumor": true
+        }
+      ],
+      "tumor_count": 2,
+      "total_valid": 7,
+      "tumor_ratio": 0.2857142857142857,
+      "coverage_ratio": 0.01587011322142586,
+      "tumor_coverage": 0.005103485654541154,
+      "normal_coverage": 0.010766627566884705,
+      "efficiency_area": -0.0056631419123435505,
+      "MRFH": 0.3333333333333333,
+      "nDCG@10": 0.5109559939712153
+    },
+    "test_079": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            33249,
+            25341,
+            36080,
+            28054
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 1,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.0008719879104977562,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.0008719879104977562,
+      "efficiency_area": -0.0008719879104977562,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_030": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            61536,
+            172655,
+            69082,
+            177767
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            62882,
+            164081,
+            75946,
+            177138
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            61119,
+            158338,
+            66598,
+            163602
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            34293,
+            154984,
+            42663,
+            165239
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            39332,
+            154824,
+            45267,
+            160966
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            67867,
+            135716,
+            73730,
+            142265
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            66775,
+            171706,
+            72527,
+            177261
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            8683,
+            9038,
+            17098,
+            14671
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            42317,
+            158784,
+            47507,
+            163949
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_10",
+          "coords": [
+            71169,
+            166613,
+            77208,
+            172849
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 10,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.025080727079198045,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.025080727079198045,
+      "efficiency_area": -0.025080727079198045,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_046": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            32396,
+            64752,
+            34588,
+            66523
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            29344,
+            71134,
+            32741,
+            74719
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            28847,
+            59927,
+            32098,
+            63246
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            32921,
+            62616,
+            34701,
+            64133
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            40080,
+            27180,
+            43928,
+            31101
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            34138,
+            64732,
+            35912,
+            65904
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            31893,
+            62573,
+            33336,
+            64281
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            31840,
+            63050,
+            33962,
+            65640
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            5414,
+            25418,
+            7206,
+            26838
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_10",
+          "coords": [
+            9796,
+            21082,
+            12156,
+            23361
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 10,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.011371693565731956,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.011371693565731956,
+      "efficiency_area": -0.011371693565731956,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_099": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            13175,
+            35985,
+            16720,
+            39218
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            25651,
+            17306,
+            29428,
+            20970
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            82121,
+            62712,
+            84050,
+            64482
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            10633,
+            40841,
+            14550,
+            44734
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            27682,
+            17074,
+            31217,
+            20562
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            14413,
+            36654,
+            17895,
+            40739
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 6,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.008339585529433357,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.008339585529433357,
+      "efficiency_area": -0.008339585529433357,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_016": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            3114,
+            9972,
+            9297,
+            18064
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            76875,
+            20772,
+            87037,
+            31303
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            4148,
+            12351,
+            7782,
+            15841
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            92978,
+            20968,
+            97501,
+            25572
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            50775,
+            66235,
+            57419,
+            72815
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            76806,
+            29066,
+            85406,
+            38830
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            29791,
+            64891,
+            37049,
+            72112
+          ],
+          "is_tumor": true
+        }
+      ],
+      "tumor_count": 2,
+      "total_valid": 7,
+      "tumor_ratio": 0.2857142857142857,
+      "coverage_ratio": 0.035966888306632874,
+      "tumor_coverage": 0.009327875874029896,
+      "normal_coverage": 0.026639012432602978,
+      "efficiency_area": -0.01731113655857308,
+      "MRFH": 0.2,
+      "nDCG@10": 0.4415801103577823
+    },
+    "test_113": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            39573,
+            53717,
+            44606,
+            58354
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            36766,
+            32371,
+            41269,
+            36961
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            53087,
+            52778,
+            58229,
+            57597
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            57523,
+            81651,
+            64801,
+            88772
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            53031,
+            50664,
+            56619,
+            54421
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            56045,
+            53326,
+            61065,
+            57991
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            64871,
+            86955,
+            70826,
+            93166
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            41483,
+            61653,
+            47041,
+            67967
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            69141,
+            90228,
+            73003,
+            93958
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_10",
+          "coords": [
+            40549,
+            50740,
+            45277,
+            55990
+          ],
+          "is_tumor": true
+        }
+      ],
+      "tumor_count": 6,
+      "total_valid": 10,
+      "tumor_ratio": 0.6,
+      "coverage_ratio": 0.019074772085462297,
+      "tumor_coverage": 0.010283997158209483,
+      "normal_coverage": 0.008790774927252816,
+      "efficiency_area": 0.0014932222309566676,
+      "MRFH": 1.0,
+      "nDCG@10": 0.8616875151015704
+    },
+    "test_061": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            36434,
+            87022,
+            43262,
+            93314
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            24654,
+            128237,
+            29079,
+            133048
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            21393,
+            127545,
+            27167,
+            133286
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            71396,
+            79794,
+            76376,
+            85471
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            76232,
+            116112,
+            82661,
+            122227
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            16132,
+            153170,
+            25617,
+            164714
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            32971,
+            84441,
+            40392,
+            91659
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 7,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.015525498788577624,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.015525498788577624,
+      "efficiency_area": -0.015525498788577624,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_116": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            16132,
+            17602,
+            20248,
+            21356
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            17861,
+            14946,
+            21168,
+            18356
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            40178,
+            48879,
+            43630,
+            52545
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            26590,
+            59773,
+            30205,
+            63743
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            54166,
+            16666,
+            57197,
+            20045
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            18849,
+            52630,
+            22528,
+            56797
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            45264,
+            42448,
+            48309,
+            45487
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            18554,
+            54769,
+            22210,
+            58873
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            44274,
+            50578,
+            47487,
+            53879
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_10",
+          "coords": [
+            71840,
+            19443,
+            75759,
+            23816
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 10,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.021073829059953107,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.021073829059953107,
+      "efficiency_area": -0.021073829059953107,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_094": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            29084,
+            57666,
+            33594,
+            63665
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            9283,
+            42051,
+            11900,
+            44804
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            17687,
+            39129,
+            20779,
+            42107
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            38010,
+            43225,
+            41389,
+            46860
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            36533,
+            56232,
+            40104,
+            59833
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            34558,
+            64528,
+            38105,
+            68133
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            70387,
+            64058,
+            73674,
+            67621
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            65746,
+            50708,
+            69296,
+            54093
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            18098,
+            41272,
+            21353,
+            44502
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_10",
+          "coords": [
+            25600,
+            56445,
+            29958,
+            60902
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 2,
+      "total_valid": 10,
+      "tumor_ratio": 0.2,
+      "coverage_ratio": 0.017392055878212992,
+      "tumor_coverage": 0.0032375267702535846,
+      "normal_coverage": 0.014154529107959406,
+      "efficiency_area": -0.010917002337705822,
+      "MRFH": 0.25,
+      "nDCG@10": 0.5012658353418871
+    },
+    "test_001": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            47046,
+            57628,
+            50425,
+            61367
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            46995,
+            15761,
+            49940,
+            19192
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            54418,
+            23237,
+            60066,
+            29513
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            51292,
+            21318,
+            57860,
+            28145
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            21195,
+            62431,
+            24321,
+            65905
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            37113,
+            55724,
+            42708,
+            61367
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            55326,
+            18600,
+            59608,
+            23314
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            34556,
+            47168,
+            38860,
+            52786
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            54947,
+            57246,
+            59319,
+            62535
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_10",
+          "coords": [
+            34023,
+            61143,
+            39056,
+            66294
+          ],
+          "is_tumor": true
+        }
+      ],
+      "tumor_count": 2,
+      "total_valid": 10,
+      "tumor_ratio": 0.2,
+      "coverage_ratio": 0.030993893681740273,
+      "tumor_coverage": 0.0074604018853635205,
+      "normal_coverage": 0.023533491796376753,
+      "efficiency_area": -0.016073089911013232,
+      "MRFH": 0.16666666666666666,
+      "nDCG@10": 0.39564672360221187
+    },
+    "test_004": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            68156,
+            32670,
+            74337,
+            38935
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            23955,
+            29281,
+            27101,
+            32408
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            25292,
+            28016,
+            28382,
+            31232
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            61036,
+            25250,
+            66318,
+            31060
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            72356,
+            26740,
+            78320,
+            33414
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            85266,
+            33956,
+            90891,
+            39903
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            76239,
+            38549,
+            82887,
+            45279
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            70297,
+            29855,
+            76436,
+            36711
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            65686,
+            34055,
+            70987,
+            41021
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 9,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.02801122414850445,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.02801122414850445,
+      "efficiency_area": -0.02801122414850445,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_010": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            39871,
+            136954,
+            45649,
+            142496
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            24835,
+            164890,
+            29759,
+            169309
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            41296,
+            78294,
+            49077,
+            86092
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            38720,
+            83097,
+            46257,
+            91168
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            37664,
+            76232,
+            46039,
+            84544
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            30695,
+            82503,
+            38048,
+            90603
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            27284,
+            166170,
+            32271,
+            169435
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            57212,
+            81964,
+            63555,
+            87516
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 8,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.019838955425190277,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.019838955425190277,
+      "efficiency_area": -0.019838955425190277,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_074": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            81634,
+            99322,
+            85931,
+            103512
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            23563,
+            80334,
+            29672,
+            84138
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            78052,
+            139757,
+            83787,
+            145830
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            76359,
+            97055,
+            82198,
+            103537
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            76921,
+            116741,
+            87923,
+            128303
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 5,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.011632392507591164,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.011632392507591164,
+      "efficiency_area": -0.011632392507591164,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_075": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            17122,
+            158794,
+            22938,
+            163299
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            19827,
+            152572,
+            28315,
+            160803
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            19133,
+            156547,
+            24631,
+            161732
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            23960,
+            151734,
+            33372,
+            159182
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            24414,
+            155343,
+            29660,
+            159691
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            41653,
+            152067,
+            47883,
+            157920
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            71713,
+            135686,
+            78618,
+            142634
+          ],
+          "is_tumor": true
+        }
+      ],
+      "tumor_count": 2,
+      "total_valid": 7,
+      "tumor_ratio": 0.2857142857142857,
+      "coverage_ratio": 0.014495391208127867,
+      "tumor_coverage": 0.005668875386625636,
+      "normal_coverage": 0.008826515821502231,
+      "efficiency_area": -0.0031576404348765946,
+      "MRFH": 0.25,
+      "nDCG@10": 0.46845052016107697
+    },
+    "test_033": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            182563,
+            65341,
+            188416,
+            73886
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 0,
+      "total_valid": 1,
+      "tumor_ratio": 0.0,
+      "coverage_ratio": 0.0025539171979115337,
+      "tumor_coverage": 0.0,
+      "normal_coverage": 0.0025539171979115337,
+      "efficiency_area": -0.0025539171979115337,
+      "MRFH": 0.0,
+      "nDCG@10": 0.0
+    },
+    "test_066": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            17806,
+            48834,
+            36244,
+            70946
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            98943,
+            48614,
+            116465,
+            70626
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            47099,
+            30799,
+            61312,
+            43400
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            130045,
+            31802,
+            145157,
+            45067
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            104194,
+            67309,
+            109654,
+            71856
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            99896,
+            50082,
+            109729,
+            60085
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            18540,
+            52674,
+            27730,
+            61641
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 2,
+      "total_valid": 7,
+      "tumor_ratio": 0.2857142857142857,
+      "coverage_ratio": 0.10296716292699178,
+      "tumor_coverage": 0.028350201839193664,
+      "normal_coverage": 0.07461696108779811,
+      "efficiency_area": -0.04626675924860445,
+      "MRFH": 0.3333333333333333,
+      "nDCG@10": 0.5706417189553201
+    },
+    "test_121": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            45806,
+            125041,
+            54245,
+            133830
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            41034,
+            128301,
+            48249,
+            134388
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            64612,
+            153526,
+            75795,
+            165950
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            40507,
+            171222,
+            48672,
+            179957
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            46036,
+            175016,
+            52772,
+            180861
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            51211,
+            173940,
+            56478,
+            178886
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            50196,
+            127139,
+            58203,
+            133883
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            44553,
+            166155,
+            51327,
+            173193
+          ],
+          "is_tumor": false
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            46121,
+            168469,
+            54083,
+            177393
+          ],
+          "is_tumor": false
+        }
+      ],
+      "tumor_count": 1,
+      "total_valid": 9,
+      "tumor_ratio": 0.1111111111111111,
+      "coverage_ratio": 0.02619030416901777,
+      "tumor_coverage": 0.0024964930083323108,
+      "normal_coverage": 0.023693811160685457,
+      "efficiency_area": -0.021197318152353147,
+      "MRFH": 0.14285714285714285,
+      "nDCG@10": 0.3333333333333333
+    },
+    "test_105": {
+      "matched": [
+        {
+          "roi": "roi_1",
+          "coords": [
+            74515,
+            41820,
+            83608,
+            51432
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_2",
+          "coords": [
+            37418,
+            53375,
+            45375,
+            62508
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_3",
+          "coords": [
+            49883,
+            33195,
+            58215,
+            42640
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_4",
+          "coords": [
+            35627,
+            45918,
+            50511,
+            64051
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_5",
+          "coords": [
+            33298,
+            40543,
+            39381,
+            47917
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_6",
+          "coords": [
+            64497,
+            37343,
+            73071,
+            47431
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_7",
+          "coords": [
+            43487,
+            40231,
+            53005,
+            51000
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_8",
+          "coords": [
+            69816,
+            45796,
+            78633,
+            54194
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_9",
+          "coords": [
+            30197,
+            51987,
+            44848,
+            68635
+          ],
+          "is_tumor": true
+        },
+        {
+          "roi": "roi_10",
+          "coords": [
+            52325,
+            42752,
+            62237,
+            54343
+          ],
+          "is_tumor": true
+        }
+      ],
+      "tumor_count": 10,
+      "total_valid": 10,
+      "tumor_ratio": 1.0,
+      "coverage_ratio": 0.09933589756467671,
+      "tumor_coverage": 0.09933589756467671,
+      "normal_coverage": 0.0,
+      "efficiency_area": 0.09933589756467671,
+      "MRFH": 1.0,
+      "nDCG@10": 1.0
+    }
+  }
+}

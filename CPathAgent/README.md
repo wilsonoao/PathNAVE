@@ -1,6 +1,6 @@
 # CPathAgent — `run_main.sh` 用法
 
-`run_main.sh` **不吃任何命令列參數**。直接執行：
+執行：
 
 ```bash
 bash run_main.sh

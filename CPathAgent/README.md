@@ -6,7 +6,7 @@
 bash run_main.sh
 ```
 
-它會在背景平行啟動多個 segment，各自用同一組固定參數呼叫 `python evaluate_camelyon16.py`，只有 `--start`/`--end` 切片範圍不同（目前 segment 1: `800-1000`、segment 2: `1000-1280`；segment 3 已被註解掉）。每個 segment 的輸出各自寫到 `logs/seg<N>.log`。
+它會在背景平行啟動多個 segment，各自用同一組固定參數呼叫 `python evaluate_camelyon16.py`，只有 `--start`/`--end` 切片範圍不同。每個 segment 的輸出各自寫到 `logs/seg<N>.log`。
 
 若要調整平行度或處理範圍，直接編輯 `run_main.sh` 裡的 `COMMON` 陣列、`--start`/`--end`，或取消註解 segment 3。
 

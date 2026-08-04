@@ -6,12 +6,12 @@ Unlike existing repositories that implement a single agent, **PathNAVE does not 
 
 ## Supported Agentic Methods
 
-This benchmark currently supports the evaluation of the following representative agentic pathology frameworks:
+This benchmark supports the following representative agentic pathology methods:
 
-- **Pathology-CoT**
-- **CPathAgent**
-- **PathAgent**
-- **SlideSeek**
+- **Pathology-CoT** (reimplemented from the original paper)
+- **CPathAgent** (adapted from the official implementation)
+- **PathAgent** (adapted from the official implementation)
+- **SlideSeek** (reimplemented from the original paper)
 
 Each method is converted into a unified trajectory representation consisting of:
 
@@ -20,6 +20,15 @@ Each method is converted into a unified trajectory representation consisting of:
 - Final diagnostic prediction
 
 This unified representation allows all methods to be evaluated using the same metrics.
+
+## Third-Party Implementations
+
+Some methods included in this benchmark are based on publicly available implementations released by the original authors.
+
+- `methods/CPathAgent/` — original README and license preserved.
+- `methods/PathAgent/` — original README and license preserved.
+
+Please refer to the corresponding directories for the original documentation and licensing information.
 
 ## Benchmark Components
 
@@ -38,10 +47,18 @@ The benchmark includes:
 
 ```text
 PathNAVE/
-├── benchmark/          # Evaluation framework
-├── datasets/           # Dataset interface
-├── metrics/            # Navigation & Evidence metrics
-├── visualization/      # Analysis & plotting
-├── methods/            # Wrappers for supported agentic methods
+├── Agent_dataset/          # QA dataset included TCGA, CAMELONY16
+├── Analyze/                # Result and plotting
+├── CPathAgent/             # Method
+├── PathAgent/              # Method
+├── Pathology-CoT/          # Method
+├── slide_seek/             # Method
+├── benchmark_evaluation/   # Calculate the metric
 └── README.md
 ```
+
+## Acknowledgement
+
+PathAgent and CPathAgent are based on the official implementations released by their original authors. We thank the authors for making their code publicly available.
+
+PathNAVE builds a unified benchmarking pipeline on top of these methods to enable standardized evaluation and comparison.

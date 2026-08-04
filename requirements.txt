@@ -15,6 +15,7 @@ matplotlib==3.10.9
 seaborn==0.13.2
 
 # Deep learning utilities
+flash-attn==2.8.3
 accelerate==1.13.0
 einops==0.8.2
 safetensors==0.7.0

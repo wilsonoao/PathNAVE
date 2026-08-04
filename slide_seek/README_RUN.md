@@ -35,3 +35,16 @@ bash run.sh
 | `--roi-size` | `896` | ROI 大小 |
 | `--max-iter` | `10` | supervisor 最大迭代次數 |
 | `--max-explorers` | `3` | 最大平行 explorer agent 數 |
+
+## 關掉 / 換掉 Flash Attention
+
+沒有對應的 CLI 參數，`use_flash_attn` 是寫在 `slideseek/config.py` 的 `PathoModelConfig`，**預設為 `True`**：
+
+```python
+@dataclass
+class PathoModelConfig:
+    ...
+    use_flash_attn: bool = True   # 改成 False 即可關掉
+```
+
+`slideseek/models/patho_model.py` 載入 Patho-R1 模型時本身就有自動退回機制（`flash_attention_2 → sdpa → 預設`，若載入失敗會自動試下一個），所以就算環境沒裝 `flash-attn` 套件通常也能自動 fallback 成 `sdpa` 正常跑；但如果想直接跳過、不要每次都先嘗試 flash-attn，把上面 `use_flash_attn` 改成 `False` 即可強制走 `sdpa`。

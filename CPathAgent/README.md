@@ -57,3 +57,11 @@ bash run_main.sh
 | `--max-tokens` | `2048` | 最大 token 數 |
 | `--temperature` | `0.1` | 取樣溫度 |
 | `--thinking` | flag | 啟用 Qwen3 思考鏈 token |
+
+## 關掉 / 換掉 Flash Attention
+
+`run_main.sh` 裡的 `COMMON` 陣列**目前有帶 `--hf-flash-attn`**，代表預設會用 Flash Attention 2（需要裝 `flash-attn` 套件）。
+
+- **要關掉**：把 `run_main.sh` 裡 `COMMON` 陣列中的 `--hf-flash-attn` 這行刪掉或註解掉即可（不需要改程式碼）。優先序邏輯在 `models/hf_backend.py` 是 `flash_attention_2 > sdpa > eager`：拿掉 `--hf-flash-attn` 後會自動退回 `sdpa`；如果想再退到 `eager`，額外加上 `--no-sdpa`。
+- **直接呼叫 `evaluate_camelyon16.py` 時**：只要不要加 `--hf-flash-attn` 這個 flag 就好。
+- 注意：只有 `--backend hf` 或 `--vlm-backend hf`（HuggingFace 後端）時才會用到這個設定；用 `ollama` 或 `openai` 後端不受影響。

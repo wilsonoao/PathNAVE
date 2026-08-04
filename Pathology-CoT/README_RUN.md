@@ -21,3 +21,18 @@ bash inference.sh
 | `--qa_file` | `annotation_summary_merged_remove_unknown_exclude.csv` | annotation CSV 檔路徑 |
 | `--start` | `0` | qa_datas 切片起始 index（含） |
 | `--end` | 無 | qa_datas 切片結束 index（不含），不填跑到底 |
+
+## 關掉 / 換掉 Flash Attention
+
+沒有 CLI 參數可以切換，`pathology-o3/think_ln_classify.py` 第 212 行載入 Qwen2.5-VL / Patho-R1 模型時是**寫死 `attn_implementation="flash_attention_2"`**，而且沒有像其他方法一樣有自動 fallback，環境沒裝 `flash-attn` 套件會直接噴錯。
+
+要關掉或換掉，需要直接改這個檔案裡的這一行：
+```python
+model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
+    model_name,
+    torch_dtype="auto",
+    device_map="auto",
+    trust_remote_code=True,
+    attn_implementation="flash_attention_2",   # 改成 "sdpa"、"eager"，或整行刪掉用預設值
+)
+```

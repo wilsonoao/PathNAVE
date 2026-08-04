@@ -31,3 +31,17 @@ bash inference.sh
 | `--dataset_name` | `wsi_vqa` | 資料集名稱（如 `wsi_vqa`、`slidechat`） |
 | `--start_idx` | 無 | 處理範圍起始 index（含，0-based） |
 | `--end_idx` | 無 | 處理範圍結束 index（不含） |
+
+## 關掉 / 換掉 Flash Attention
+
+PathAgent **目前沒有使用 Flash Attention**：`pathagent.py` 第 178 行載入 Patho-R1 模型時是寫死 `attn_implementation="sdpa"`，沒有 CLI 參數可以切換，也不需要裝 `flash-attn` 套件。
+
+如果要改用其他 attention 實作（例如想測 `flash_attention_2` 或退到 `eager`），需要直接修改 `pathagent.py` 裡這一行：
+```python
+patho_r1_model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
+    args.patho_r1_ckpt,
+    torch_dtype=torch.bfloat16,
+    device_map="auto",
+    attn_implementation="sdpa",   # 改成 "flash_attention_2" 或 "eager"
+)
+```
